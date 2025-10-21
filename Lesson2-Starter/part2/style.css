@@ -23,10 +23,10 @@ body {
    Hint: Use a descendant selector
 */
 /* .main-article p { */
-.article-content p {
-   font-size: 18px;
+.main-article p {
+   font-size: larger;
    color: #2c3e50;
-   background-color: yellow;
+   background-color: #f0f007;
 }
 
 /* TODO 2: Style anchor tags inside .post-footer
