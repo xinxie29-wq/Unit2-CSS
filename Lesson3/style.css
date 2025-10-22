@@ -1,0 +1,45 @@
+/* Movie Review CSS Starter File */
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+/* We'll add styles here step by step! */
+body {
+    background-color: #ce9999;
+    color: #333333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 40px 20px
+}
+
+header h1 {
+font-family: "Shadows Into Light", cursive;
+font-weight: 90px;
+font-style: normal;
+font-size: 50px;
+}
+
+.tagline {
+font-size: 20px;
+font-style: italic;
+color: #be8a11;
+font-family:"Shadows Into Light", cursive;
+margin: 0;
+}
+
+/* Step 1: Colors - We'll add these together! */
+
+
+/* Step 2: Typography - Font families coming soon! */
+
+
+/* Step 3: Text styling - Sizes and spacing! */
