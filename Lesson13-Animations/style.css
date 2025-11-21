@@ -1,0 +1,36 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    /* animation-name: example;
+    animation-duration: 4s; */
+    /* animation: moveColor 1s infinite; */
+    animation: ColorTransform 2s infinite;
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellowgreen;}
+}
+@keyframes example {
+    0%{background-color: red;}
+    25%{background-color: #ff8800;}
+    50%{background-color: rgb(128, 255, 0);}
+    75%{background-color: rgb(0, 255, 234);}
+    100%{background-color: rgb(0, 195, 255);}
+}
+@keyframes moveColor {
+    0%{background-color: red; left:0px; top: 0px;}
+    25%{background-color: #ff8800;left:150px; top: 0px;}
+    50%{background-color: rgb(128, 255, 0);left: 150px; top: 150px;}
+    75%{background-color: rgb(0, 255, 234); left:0; top:150px}
+    100%{background-color: rgb(0, 195, 255);left: 0; top: 0;}
+}
+@keyframes ColorTransform {
+    0%{background-color: red; transform:  rotate(0deg) scale(1);}
+    25%{background-color: #ff8800; transform: rotate(90deg) scale(1.2);}
+    50%{background-color: rgb(128, 255, 0); transform: rotate(180deg) scale(1);}
+    75%{background-color: rgb(0, 255, 234); transform: rotate(270deg) scale(1.2);}
+    100%{background-color: rgb(0, 195, 255);transform: rotate(360deg) scale(1);}
+}
